@@ -1,0 +1,63 @@
+PYTHON 
+
+print("hello world")
+
+print is a built in function and hello world is a string or a character(print is used to display the result)
+
+
+name = "mahadevu"
+age = 25
+print(name, age)
+print("my name is: ", name)
+print("my age is: ", age)
+
+== is a assignment symbol it is used to add values to variables 
+
+name = "mahadevu"
+age = 25
+old = False
+jai = None
+print(name, age)
+print("my name is: ", name)
+print("my age is: ", age)
+
+print(type(name))
+print(type(age))
+print(type(old))
+print(type(jai))
+
+my name is:  mahadevu
+my age is:  25
+<class 'str'>
+<class 'int'>
+<class 'bool'>
+<class 'NoneType'>
+
+
+
+2 number swapping with out temp variable
+
+aa = 20
+bb = 55
+
+aa = aa+bb
+bb = aa - bb
+aa = aa-bb
+
+print(aa, bb)
+
+55 20
+
+2 number swapping with temp variable 
+
+
+ma = 2
+na = 3
+
+temp = ma
+ma = na
+na = temp
+
+print(ma, na)
+
+3 2
