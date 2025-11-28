@@ -9,7 +9,7 @@ class student:
 
     def wellcome(self):
         self.__hello()
-        # print(self.__name)
+        print(self.__name)
 
 s1 = student()
 print(s1.wellcome())

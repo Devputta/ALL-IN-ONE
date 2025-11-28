@@ -13,10 +13,11 @@ class car:
         print("Cars has stoped!")
 
 class tayota(car):
-    def __init__(self, type, name):
+    def __init__(self, name, type):
         super().__init__(type)
         self.name = name
         super().start()
+        super().stop()
 
 c1 = tayota("KIA", "Eletrics")
 print(c1.type)

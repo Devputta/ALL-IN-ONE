@@ -17,12 +17,15 @@ class tayota(car):
         self.brand = brand
 
 class fortuner(tayota):
-    def __init__(self, type):
+    def __init__(self, brand, type):
         self.type = type
+        super().started()
+        super().stop()
+        super().__init__(brand)
 
 
-car1 = fortuner("diesel")
-car1 = tayota("b1")
+car1 = fortuner("b1","diesel")
 
-car1.started()
+
+
 print(car1.brand)
